@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc939f42-8677-4554-9589-77ce9012a4a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Conexao_mysql_com_java/src/main/java/com/cadastro/usuarios/Aplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexao_mysql_com_java/src/main/java/com/cadastro/usuarios/Conexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conexao_mysql_com_java/src/main/java/com/cadastro/usuarios/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/Livros/java_para_internet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build/web/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/build/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/web/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaParaWeb/MeusMimos/web/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3BopMYyYrWZtQEe6VLuF6QPT9xN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Programacao/JAVA/Desenvolvimento_de_sistema_com_java/01JavaParaWeb/01JDBC_conexao_mysql_com_java/Conexao_mysql_com_java",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc939f42-8677-4554-9589-77ce9012a4a8" name="Changes" comment="" />
+      <created>1775165229221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775165229221</updated>
+      <workItem from="1775165230344" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Conexao_mysql_com_java/src/main/java/com/cadastro/usuarios/Aplicacao.java</url>
+          <line>7</line>
+          <properties class="com.cadastro.usuarios.Aplicacao" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
