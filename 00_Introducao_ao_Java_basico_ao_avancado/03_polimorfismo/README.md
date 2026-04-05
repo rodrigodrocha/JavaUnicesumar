@@ -8,6 +8,9 @@
 
 ![alt text](image.png)
 
-### Exemplo
+### Exemplo de Polimorfismo em classes
 ![alt text](image-1.png)
+
+### Exemplo de Polimorfismo em interface
+![alt text](image-2.png)
 
