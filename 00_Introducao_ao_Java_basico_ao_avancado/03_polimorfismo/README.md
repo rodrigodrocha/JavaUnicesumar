@@ -14,3 +14,7 @@
 ### Exemplo de Polimorfismo em interface
 ![alt text](image-2.png)
 
+# A classe Object
+
+![alt text](image-3.png)
+
