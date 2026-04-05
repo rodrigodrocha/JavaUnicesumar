@@ -9,3 +9,6 @@
 
 * IMPLEMENTAÇÃO MÚLTIPLA DE INTERFACE DIRETO NA CLASSE:
 ![alt text](image-5.png) 
+
+* MÉTODOS DE IMPLEMENTAÇÃO EM CLASSES ABSTRATAS:
+![alt text](image-6.png)
