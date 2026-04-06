@@ -1,0 +1,44 @@
+abstract class Veiculo{
+	private String placa;
+	private int ano;
+
+	//Construtor
+	Veiculo(String placa, int ano){
+		this.placa = placa;
+		this.ano = ano;
+	}
+
+	abstract void exibirInformacoes();
+}
+
+class Onibus extends Veiculo{
+	private int assento;
+
+	//Construtor classe filha
+	Onibus(String placa, int ano, int assento){
+	super(placa, ano);
+	this.assento = assento;
+	}
+
+	public void exibirInformacoes(){
+		System.out.prinln("placa" + placa);
+	}
+}
+
+class Caminhao extends Veiculo{
+	private int eixo;
+
+	//Construtor
+	Caminhao(String placa, int ano, int eixo){
+	super(placa, ano);
+	this.eixo = eixo;
+	}
+}
+
+public class GerenciarVeiculos{
+	public static void main(String[] args){
+
+		Veiculo onibus = new Onibus("fhi5i95", 2013, 5);
+		onibus.exibirInformacoes();
+	}
+}
