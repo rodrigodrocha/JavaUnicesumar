@@ -19,13 +19,4 @@ Como vemos em nossa imagem estamos tentando acessar em nossa array o índice 5 m
 Tradução: Índice 5 fora dos limites para o tamanho 3
 
 # Hierarquia dos Exceptions
-![alt text](image-5.png)
-
-# Declaração de Exceçoes em métodos
-
-Usando o ``throws``
-
-![alt text](image-6.png)
-
-* Quando eu utilizo o ``throws`` no método eu obrigado a quem chamar esse método a usar o ``try`` e o ``catch``. Exemplo:
-
+![alt text](image-5.png/)
