@@ -10,3 +10,9 @@ Podemos observar na linha 8 que declaramos uma array do tipo int, ``int[]``, atr
 Também podemos instanciar a nossa array atribuindo valores já dentro da array, nesse caso não dissemos o tamanho da array, pois o java já vai ter os dados que vão ocupar a array então não tem necessidade de informar o tamanho da array
 ![alt text](image-2.png)
 Podemos observar também um jeito mais simplificado, na linha 28, quando já atribuímos valores a array para a sua inicialização.
+
+# Stack e Heap
+Os ARRAYS SÃO OBJETOS, eles são armazenados no Heap, então seus valores não são copiados e sim a localização do objeto e quando modificamos os dados dentro desse objeto eles são alterados, já os valores primitivos quando incrementamos esses valores são copiados e quando terminado um laço for esses valores voltam ao normal. Exemplo:
+![alt text](image-4.png)
+E isso acontece pois é onde os dados estão armazenados, então devemos ter cuidado.
+![alt text](image-3.png)
