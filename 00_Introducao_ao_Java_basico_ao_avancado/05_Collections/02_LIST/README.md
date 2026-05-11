@@ -11,3 +11,6 @@ Podemos observar na imagem abaixo:
 * Usar o método ``.get(0)`` com um índice dentro, para pegar o valor de um determinado índice da lista
 
 ![alt text](image-2.png)
+
+### Lista criado com o List.of são listas IMUTÁVEIS
+![alt text](image-3.png)
