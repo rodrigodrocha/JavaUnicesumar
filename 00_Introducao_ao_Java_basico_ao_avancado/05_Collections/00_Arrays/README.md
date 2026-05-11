@@ -16,3 +16,13 @@ Os ARRAYS SÃO OBJETOS, eles são armazenados no Heap, então seus valores não 
 ![alt text](image-4.png)
 E isso acontece pois é onde os dados estão armazenados, então devemos ter cuidado.
 ![alt text](image-3.png)
+
+# Array multidimensionais
+![alt text](image-5.png)
+
+## Interação de array multidimensionais 
+![alt text](image-6.png)
+
+## linhas com valores diferentes de colunas 
+![alt text](image-7.png)
+![alt text](image-8.png)
