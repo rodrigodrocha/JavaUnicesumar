@@ -26,3 +26,6 @@ E isso acontece pois é onde os dados estão armazenados, então devemos ter cui
 ## linhas com valores diferentes de colunas 
 ![alt text](image-7.png)
 ![alt text](image-8.png)
+
+## principais métodos da Classe Arrays
+![alt text](image-10.png)
