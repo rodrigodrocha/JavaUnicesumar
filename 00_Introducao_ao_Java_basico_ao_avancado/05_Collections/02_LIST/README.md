@@ -14,3 +14,11 @@ Podemos observar na imagem abaixo:
 
 ### Lista criado com o List.of são listas IMUTÁVEIS
 ![alt text](image-3.png)
+
+## Iterator
+Quando usamo o for para tentar excluir um item da lista na sua interação ocorre erro, pois definimos o tamanho da lista e der repente o tamanho da lista se altera dentro do for isso não pode ocorrer e devemos corrigir isso para o for continuar funcionando, para não nos preocuparmos e quisermos excluir um item da lista na sua interação podemos utilizar o iterator. A figura abaixa mostra o erro quando tentamos compilar o código com uma remoção no for. 
+![alt text](image-5.png)
+![alt text](image-6.png)
+
+Já com o iterator podemos realizar essa remoção com tranquilidade
+![alt text](image-7.png)
