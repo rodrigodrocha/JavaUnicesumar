@@ -21,3 +21,9 @@
 - Mantém a ordem de inserção
 ### TreeMap
 - Mantém os elementos ordenados automaticamente
+
+## Operações com usando o Map
+![alt text](image-3.png)
+
+## Interando sobre um Map sem e com Entry
+![alt text](image-4.png)
