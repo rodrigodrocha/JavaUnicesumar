@@ -6,3 +6,6 @@ Sáida:
 
 ## LocalTime
 ![alt text](image-3.png)
+
+### Operações com LocalTime
+![alt text](image-4.png)
