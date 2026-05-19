@@ -25,3 +25,7 @@ Analisando o erro podemos ver que ele informa que o arquivo já existe
 
 ### Criação de arquivos e diretórios temporários
 ![alt text](image-7.png)
+
+
+## Copiando e movendo arquivos
+![alt text](image-8.png)
