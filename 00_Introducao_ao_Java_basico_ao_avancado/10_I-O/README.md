@@ -60,3 +60,6 @@ Rodei o código de novo e criou um novo arquivo
 
 # Java NIO
 ![alt text](image-18.png)
+
+## Escrevendo e lendo usando o NIO
+![alt text](image-19.png)
