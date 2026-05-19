@@ -36,3 +36,17 @@ Analisando o erro podemos ver que ele informa que o arquivo já existe
 
 ### arquivos específicos
 ![alt text](image-10.png)
+
+
+# Exercício 1 
+![alt text](image-11.png)
+## Resolução 
+![alt text](image-12.png)
+
+
+# Exercício 2
+![alt text](image-13.png)
+## Resolução
+![alt text](image-14.png)
+Rodei o código de novo e criou um novo arquivo 
+![alt text](image-15.png)
