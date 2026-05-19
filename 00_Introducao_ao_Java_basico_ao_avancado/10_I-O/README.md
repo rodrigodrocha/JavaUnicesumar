@@ -50,3 +50,7 @@ Analisando o erro podemos ver que ele informa que o arquivo já existe
 ![alt text](image-14.png)
 Rodei o código de novo e criou um novo arquivo 
 ![alt text](image-15.png)
+
+
+# Escrevendo Arquivos com FileWrite e lendo com FileReader
+![alt text](image-16.png)
