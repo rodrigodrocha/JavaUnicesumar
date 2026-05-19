@@ -29,3 +29,10 @@ Analisando o erro podemos ver que ele informa que o arquivo já existe
 
 ## Copiando e movendo arquivos
 ![alt text](image-8.png)
+
+
+## percorrendo os conteúdos dentro de um caminho.
+![alt text](image-9.png)
+
+### arquivos específicos
+![alt text](image-10.png)
