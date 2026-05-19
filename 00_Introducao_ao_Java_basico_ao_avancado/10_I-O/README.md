@@ -54,3 +54,9 @@ Rodei o código de novo e criou um novo arquivo
 
 # Escrevendo Arquivos com FileWrite e lendo com FileReader
 ![alt text](image-16.png)
+
+## criando dentro de uma pasta 
+![alt text](image-17.png)
+
+# Java NIO
+![alt text](image-18.png)
