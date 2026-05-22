@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-public class Exemplo04_FileReaderWriter {
+public class Exemplo04_FilesWriter {
     public static void main(String[] args) throws IOException{
        
        
