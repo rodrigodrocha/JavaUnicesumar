@@ -69,3 +69,28 @@ Rodei o código de novo e criou um novo arquivo
 Conseguimos ler os arquivos e gerar uma copia com essas quatro classes
  eles retornam bytes na leitura e escrevem com bytes, mas no momento da escrita já converte para caracteres os bytes 
  muito bom é rápido
+
+## metódo read() do InputStream
+
+![alt text](image-21.png)
+
+![alt text](image-20.png)
+Podemos observar que se passarmos só o buffer como parametro ele chamara o método .read() com um parametro mas retorna para o método .read() com 3 parametros, então se por padrão quisermos começar do momento zero até o final do array de bytes, podemos passar somente o array de bytes que também funcionará. Exemplo:
+![alt text](image-22.png)
+
+Podemos ver que o método .read(), retornar o número total de bytes ou -1 se não tiver mais bytes. como na figura abaixo
+![alt text](image-23.png)
+
+## transferindo bytes
+
+![alt text](image-25.png)
+
+Classe
+
+![alt text](image-26.png)
+
+## lendo apartir de uma array de bytes 
+![alt text](image-27.png)
+
+## Escrevendo uma array de bytes
+![alt text](image-28.png)

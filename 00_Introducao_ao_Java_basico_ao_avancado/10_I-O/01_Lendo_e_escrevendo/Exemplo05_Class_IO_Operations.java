@@ -32,6 +32,8 @@ public class Exemplo05_Class_IO_Operations {
         }
         return text.toString(); // o bufferedReader tem como ler uma linha inteira de um arquivo
     }
+
+    //INPUTSTREAM E OUTPUTSTREAM
     public static byte[] read(InputStream in) throws IOException{
         return in.readAllBytes();
     }
@@ -41,6 +43,20 @@ public class Exemplo05_Class_IO_Operations {
                      ) throws IOException{
                         
         out.write(bytes);
+    }
+
+    //TRANSFERINDO BYTES
+    public static void transfer(InputStream in, OutputStream out) throws IOException{
+        byte[] buffer = new byte[2048]; 
+        
+        while (true) { 
+            int bytesRead =  in.read(buffer);
+            if (bytesRead < 0) {
+                break;
+            }
+            out.write(buffer, 0, bytesRead);    
+        }
+        
     }
 }
 

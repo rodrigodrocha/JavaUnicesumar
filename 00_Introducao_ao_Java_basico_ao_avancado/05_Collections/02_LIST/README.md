@@ -23,5 +23,7 @@ Quando usamo o for para tentar excluir um item da lista na sua interação ocorr
 Já com o iterator podemos realizar essa remoção com tranquilidade
 ![alt text](image-7.png)
 
-# Trabalhando com duas listas
+## Trabalhando com duas listas
 ![alt text](image-8.png)
+
+## 
