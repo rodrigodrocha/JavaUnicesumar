@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.Reader;
 import java.io.Writer;
 
@@ -29,6 +31,16 @@ public class Exemplo05_Class_IO_Operations {
             text.append(line).append("\n");
         }
         return text.toString(); // o bufferedReader tem como ler uma linha inteira de um arquivo
+    }
+    public static byte[] read(InputStream in) throws IOException{
+        return in.readAllBytes();
+    }
+    public static void write(
+                        OutputStream out, 
+                        byte[]       bytes 
+                     ) throws IOException{
+                        
+        out.write(bytes);
     }
 }
 

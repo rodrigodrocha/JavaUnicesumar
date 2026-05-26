@@ -63,3 +63,9 @@ Rodei o código de novo e criou um novo arquivo
 
 ## Escrevendo e lendo usando o NIO
 ![alt text](image-19.png)
+
+
+# FileInputStream, FileOutputStream, OutputStream e InputStream
+Conseguimos ler os arquivos e gerar uma copia com essas quatro classes
+ eles retornam bytes na leitura e escrevem com bytes, mas no momento da escrita já converte para caracteres os bytes 
+ muito bom é rápido
