@@ -94,3 +94,109 @@ Classe
 
 ## Escrevendo uma array de bytes
 ![alt text](image-28.png)
+
+#  PrintWriter
+O PrintWriter é uma classe usada para escrever texto em arquivos, consoles ou outros fluxos de saída em Java.
+
+Ele é muito utilizado porque permite escrever dados de forma simples usando métodos como:
+
+``` java
+print()
+println()
+printf()
+
+``` 
+✅ Exemplo básico
+
+``` java
+import java.io.PrintWriter;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+
+        PrintWriter escritor = new PrintWriter("arquivo.txt");
+
+        escritor.println("Olá mundo!");
+        escritor.println("Java é incrível!");
+
+        escritor.close();
+    }
+}
+``` 
+### 🧠 Por que precisamos usar ``.close()``?
+
+Quando escrevemos em um arquivo, o Java normalmente não grava imediatamente no disco.
+
+Ele usa um espaço temporário na memória chamado: **buffer**
+
+Os dados ficam acumulados ali para melhorar desempenho. O método: ``close()`` faz 3 coisas importantes:
+
+- força a escrita final no arquivo;
+- libera recursos da memória;
+- fecha o arquivo corretamente.
+
+Sem o ``close()``, pode acontecer:
+
+- arquivo vazio;
+- texto incompleto;
+- desperdício de memória;
+- erro de acesso ao arquivo.
+
+### ✅ O que é .flush()?
+
+O método **flush()** serve para:
+
+- enviar imediatamente os dados do buffer para o arquivo
+
+MAS…
+
+- ⚠️ ele NÃO fecha o arquivo.
+
+#### ✅ Diferença entre flush() e close()
+| Método | O que faz |
+|:-------|:----------|
+|flush() |Escreve os dados pendentes|
+|close() |Escreve os dados + fecha o recurso|
+
+#### ✅ Exemplo com flush()
+
+``` java
+PrintWriter escritor = new PrintWriter("arquivo.txt");
+
+escritor.println("Linha 1");
+
+escritor.flush(); // força gravação
+
+escritor.println("Linha 2");
+
+escritor.close();
+``` 
+
+#### 🚀 Forma moderna: try-with-resources
+
+Java criou uma forma MUITO melhor de trabalhar com arquivos: ``try-with-resources``
+
+Ela fecha automaticamente os recursos no final.
+
+##### ✅ Exemplo
+
+``` java
+import java.io.PrintWriter;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+
+        try (PrintWriter escritor = new PrintWriter("arquivo.txt")) {
+
+            escritor.println("Olá!");
+            escritor.println("Fechamento automático!");
+
+        }
+    }
+}
+```
+##### 🧠 O que acontece aqui?
+
+Quando o bloco ``try`` termina: ``}``
+
+o Java automaticamente executa: ``escritor.close();``, mesmo se ocorrer erro.
